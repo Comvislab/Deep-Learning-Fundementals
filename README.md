@@ -21,7 +21,15 @@ with making all negative values to 0. This is known as Dying ReLU problem. To av
 pure linearity, for negative values, small linearity is applied with some scale constant.
         pReLU = max (x,0) + alpa * min (x,0)
 
+3. Sigmoid Activation: It is used for classification. It gives the probability and also it is non-linear differentiable.
+        Sigmoid = 1/1+e^z_in
+        Gradient of Sigmoid:  d(Sigmoid)/dz_in  = e^(-z_in) / (1+ e^(-z_in))^2 = Sigmoid * (1-Sigmoid)
+        
+4. Tanh Activation: It is similar to sigmoid, except that it has center located at Point 0. 
+        Tanh = (1 - e^(-2*z_in)) / (1 + e^(-2*z_in))
+        Gradient of TanH:     d(Tanh)/dz_in = (1 - Tanh^2(z_in))
 
+We are also given the gradient of the functions Sigmoid and TanH
 This document is going to be expanded in time. 
 
 With my pleasure.
