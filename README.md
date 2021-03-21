@@ -14,8 +14,12 @@ take gradient/take derivative of the function).
 In the view of above explanations, we are giving well known activation functions here;
 1. ReLU Activation: (act_fun_ReLU.py) In ReLU activation, the input is distorted when it below the zero (having 
   negative sign). This distortion makes the ReLU, non-linear one.
-  
-2. Leaky ReLU Activation:
+        ReLU = max (x,0)
+        
+2. Parameterized ReLU (pReLU) Activation: There is a problem related with classic ReLU function which is related 
+with making all negative values to 0. This is known as Dying ReLU problem. To avoid this problem and also avoid from
+pure linearity, for negative values, small linearity is applied with some scale constant.
+        pReLU = max (x,0) + alpa * min (x,0)
 
 
 This document is going to be expanded in time. 
