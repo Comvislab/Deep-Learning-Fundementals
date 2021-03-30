@@ -1,4 +1,4 @@
-<div class="text-orange mb-2">
+<div class="text-white bg-blue mb-2">
 <h1>Activation Functions</h1>
 </div>
 In Deep Learning there are Activation Functions used for obtaining output of a single neuron.
@@ -9,28 +9,28 @@ But we have to not forget that, for DL (Deep Learning) activation functions shou
 
 In the view of above explanations, we are giving well known activation functions here;
 
-<div class="text-orange mb-2">
+<div class="text-white bg-blue mb-2">
 <h4>ReLU Activation</h4>:
 </div>
 
 In ReLU activation, the input is distorted when it below the zero (having negative sign). This distortion makes the ReLU, non-linear one. 
   ReLU = max (x,0)
 
-<div class="text-orange mb-2">
+<div class="text-white bg-blue mb-2">
 <h4>Parameterized ReLU (pReLU) Activation:</h4> 
 </div>
 
 There is a problem related with classic ReLU function which is related with making all negative values to 0. This is known as Dying ReLU problem. To avoid this problem and also avoid from pure linearity, for negative values, small linearity is applied with some scale constant. 
   pReLU = max (x,0) + alpa * min (x,0)
 
-<div class="text-orange mb-2">
+<div class="text-white bg-blue mb-2">
 <h4>Sigmoid Activation:</h4> 
 </div>
 
 It is used for classification. It gives the probability and also it is non-linear differentiable. Sigmoid = 1/1+e^z_in Gradient of 
   Sigmoid: d(Sigmoid)/dz_in = e^(-z_in) / (1+ e^(-z_in))^2 = Sigmoid * (1-Sigmoid)
 
-<div class="text-orange mb-2">
+<div class="text-white bg-blue mb-2">
 <h4>Tanh Activation:</h4> 
 </div>
 
