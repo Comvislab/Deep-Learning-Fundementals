@@ -6,8 +6,8 @@ In Deep Learning Fundementals, the following modules are important.
 We are going to give all the necessary details in our repository with supporting all
 materials & Python Codes with their references.
 
-- <a href="https://github.com/Comvislab/Deep-Learning-Fundementals/tree/main/Activation%20Functions#activation-functions"> Activation Functions (ReLU, Parameterized ReLU, Sigmoid, Tanh)</a>
-- <a href="https://github.com/Comvislab/Deep-Learning-Fundementals/blob/main/Simple%20Linear%20Regression/ReadMe.md#simple-linear-regression-with-example-python-coding-for-gold-prices-prediction"> Simple Linear Regression (A Neuron concept) Ex:Gold Price Prediction </a>
+- <a href="https://github.com/Comvislab/Deep-Learning-Fundementals/tree/main/Activation%20Functions"> Activation Functions (ReLU, Parameterized ReLU, Sigmoid, Tanh)</a>
+- <a href="https://github.com/Comvislab/Deep-Learning-Fundementals/tree/main/Simple%20Linear%20Regression"> Simple Linear Regression (A Neuron concept) Ex:Gold Price Prediction </a>
 - Polynomial Regression
 - Multiple Linear Regression
 - Ridge Regression with Regularization L2
