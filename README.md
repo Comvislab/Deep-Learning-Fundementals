@@ -6,8 +6,8 @@ In Deep Learning Fundementals, the following modules are important.
 We are going to give all the necessary details in our repository with supporting all
 materials with their references.
 
-- Activation Functions
-- Simple Linear Regression (A Neuron concept)
+- Activation Functions (ReLU, Parameterized ReLU, Sigmoid, Tanh)
+- Simple Linear Regression (A Neuron concept) Ex:Gold Price Prediction
 - Polynomial Regression
 - Multiple Linear Regression
 - Ridge Regression with Regularization L2
