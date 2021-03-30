@@ -4,7 +4,7 @@ In this repository, ComVIS Lab Team is going to share fundemental functions and 
 
 In Deep Learning Fundementals, the following modules are important.
 We are going to give all the necessary details in our repository with supporting all
-materials with their references.
+materials & Python Codes with their references.
 
 - Activation Functions (ReLU, Parameterized ReLU, Sigmoid, Tanh)
 - Simple Linear Regression (A Neuron concept) Ex:Gold Price Prediction
