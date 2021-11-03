@@ -8,10 +8,10 @@ w_j= w_j - \eta \sum_i (\text{y}^{(i)} - \text{hat{y}}^{(i)})x_{j}^{(i)}
 where w_j is the model coefficient, \eta is learning rate and (\text{y}^{(i)} - \text{hat{y}}^{(i)})x_{j}^{(i)}
 is the partial derivative of the Loss Function according to the w_j
 
-Here there are two variants of Gradient Descent Algorithm to find Simple Linear Regression solution.
-The First one [simplelinearregression.py] is the Gradient Descent Algorithm used with 
-              "for loops" -classical programming approach- for updating the weights of SLR.
-The Second one [simple_linear_regression_vectorized.py] is the Gradient Descent Algorithm used vectorized weight update.
+Here there are two variants of Gradient Descent Algorithm to find Simple Linear Regression solution.<br>
+The First one [simplelinearregression.py] is the Gradient Descent Algorithm used with <br>
+              "for loops" -classical programming approach- for updating the weights of SLR. <br>
+The Second one [simple_linear_regression_vectorized.py] is the Gradient Descent Algorithm used vectorized weight update.<br>
 
 The Second one is better way of implementing Gradient Descent.
 
