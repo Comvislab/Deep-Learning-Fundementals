@@ -5,8 +5,8 @@ In order to understand, we have to remember Gradient Descent;
 w_j= w_j - \eta \sum_i (\text{y}^{(i)} - \text{hat{y}}^{(i)})x_{j}^{(i)}
 \end{gradient_formula}
 
-where \theta_i is the model coefficient, \alpha is learning rate and \frac{1}{n}\sum_{i=1}^n (h_\theta(x) - y_i)*x_j
-is the partial derivative of the Loss Function according to the \theta_i
+where w_j is the model coefficient, \eta is learning rate and (\text{y}^{(i)} - \text{hat{y}}^{(i)})x_{j}^{(i)}
+is the partial derivative of the Loss Function according to the w_j
 
 Here there are two variants of Gradient Descent Algorithm to find Simple Linear Regression solution.
 The First one [simplelinearregression.py] is the Gradient Descent Algorithm used with 
